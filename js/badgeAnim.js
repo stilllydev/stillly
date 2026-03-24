@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let tooltipText = '';
       if (badge.classList.contains('dev')) tooltipText = 'Developer';
       else if (badge.classList.contains('staff')) tooltipText = 'Staff';
-      else if (badge.classList.contains('certif')) tooltipText = 'Certified';
+      else if (badge.classList.contains('certified')) tooltipText = 'Certified';
       else if (badge.classList.contains('imagehost')) tooltipText = 'Image Host';
       else if (badge.classList.contains('patrick')) tooltipText = 'St. Patrick';
       else if (badge.classList.contains('owner')) tooltipText = 'Owner';
