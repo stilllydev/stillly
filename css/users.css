@@ -154,7 +154,7 @@ body {
 
 .container .profileLayout .profileBadges .profileBadge {
     position: relative;
-    font-size: 20.5px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     color: #ffffff !important;
