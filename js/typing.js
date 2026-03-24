@@ -1,4 +1,4 @@
-const texts = document.getElementById('typingTexts').innerHTML.split(' &lt;&gt; ');
+const texts = document.getElementById('typingTexts').innerHTML.split('|');
 const textElement = document.getElementById('typingText');
 const cursorChar = "|"; // Cursor character added here
 let currentTextIndex = 0;
